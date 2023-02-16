@@ -63,6 +63,7 @@ button {
   font-weight: 300;
   transition: all 0.5s linear;
   overflow: hidden;
+  height: 90px;
 }
 
 .number {
@@ -88,6 +89,7 @@ button {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   height: 56vh;
+  margin-top: 10px;
 }
 
 .c-grid > button {
@@ -106,6 +108,21 @@ button {
 
 .span-two {
   grid-column: span 2;
+}
+
+.top-btn {
+  border-right: 1px solid white !important;
+  border-bottom: 1px solid white !important;
+}
+
+.normal {
+  border-right: 1px solid white !important;
+  border-bottom: 1px solid white !important;
+}
+
+.special {
+  border-bottom: 1px solid white !important;
+  border-right: 0 solid white !important;
 }
 
 /* Larger Screen Size => 768px */
