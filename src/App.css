@@ -1,25 +1,38 @@
-.App {
-  display: grid;
-  grid-auto-rows: 539px;
-  padding: 1rem 0;
+.nav-bar {
+  background-color: aqua;
+  height: 65px;
 }
 
 body {
   background-color: #e5e5e5;
-  display: grid;
-  justify-content: center;
-  align-items: center;
-  grid-template-columns: 100%;
+}
+
+.logo {
+  float: left;
+}
+
+.nav-list {
+  float: right;
+  list-style-type: none;
+}
+
+.nav-list li {
+  display: inline;
+  padding: 20px;
+}
+
+nav {
+  padding: 0 20px;
+}
+
+.content-area {
+  padding: 0 20px;
 }
 
 .container {
   display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 0.5rem;
-  max-width: 750px;
-  margin-left: auto;
-  margin-right: auto;
+  justify-content: space-evenly;
+  padding-top: 30px;
 }
 
 .container .calculator {
@@ -124,6 +137,15 @@ button {
   border-right: 0 solid white !important;
 }
 
+.footer {
+  position: fixed;
+  bottom: 0;
+  padding: 0 20px;
+  background-color: aqua;
+  width: 100%;
+  margin: auto;
+}
+
 /* Larger Screen Size => 768px */
 @media screen and (min-width: 768px) {
   body {
@@ -133,8 +155,7 @@ button {
 
   .container {
     grid-template-columns: repeat(2, 1fr);
-    padding: unset;
-    width: 750px;
+    padding-top: 30px;
   }
 }
 
