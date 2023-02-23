@@ -12,9 +12,9 @@ function App() {
         <nav>
           <h3 className="logo">Welcome to Math Magicians</h3>
           <ol className="nav-list">
-            <li><Link to="/">Home</Link></li>
-            <li><Link to="/calculator">Calculator</Link></li>
-            <li><Link to="/quote">Quote</Link></li>
+            <li><Link to="/" style={{ textDecoration: 'none', color: 'black' }}>Home</Link></li>
+            <li><Link to="/calculator" style={{ textDecoration: 'none', color: 'black' }}>Calculator</Link></li>
+            <li><Link to="/quote" style={{ textDecoration: 'none', color: 'black' }}>Quote</Link></li>
           </ol>
         </nav>
       </div>
