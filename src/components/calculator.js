@@ -16,7 +16,9 @@ function Calculator() {
   };
 
   return (
-    <div className="calculator">
+    <div className='container'>
+      <h1>Lets do some Math</h1>
+      <div className="calculator">
       <div className="c-wrapper">
         <div className="ctc c-screen">
           <div className="c-history-answer">
@@ -213,6 +215,7 @@ function Calculator() {
           </button>
         </div>
       </div>
+    </div>
     </div>
   );
 }
