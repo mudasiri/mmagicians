@@ -137,6 +137,15 @@ button {
   border-right: 0 solid white !important;
 }
 
+.footer{
+  position: fixed;
+  bottom: 0;
+  padding: 0 20px;
+  background-color: aqua;
+  width: 100%;
+  margin: auto;
+}
+
 /* Larger Screen Size => 768px */
 @media screen and (min-width: 768px) {
   body {
