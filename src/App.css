@@ -1,4 +1,4 @@
-.nav-bar{
+.nav-bar {
   background-color: aqua;
   height: 65px;
 }
@@ -7,13 +7,13 @@ body {
   background-color: #e5e5e5;
 }
 
-.logo{
-float: left;
+.logo {
+  float: left;
 }
 
-.nav-list{
-float: right;
-list-style-type: none;
+.nav-list {
+  float: right;
+  list-style-type: none;
 }
 
 .nav-list li {
@@ -21,11 +21,11 @@ list-style-type: none;
   padding: 20px;
 }
 
-nav{
+nav {
   padding: 0 20px;
 }
 
-.content-area{
+.content-area {
   padding: 0 20px;
 }
 
@@ -137,7 +137,7 @@ button {
   border-right: 0 solid white !important;
 }
 
-.footer{
+.footer {
   position: fixed;
   bottom: 0;
   padding: 0 20px;

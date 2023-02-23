@@ -1,9 +1,10 @@
-import React from "react";
+/* eslint-disable react/no-unescaped-entities */
+import React from 'react';
 
 function Home() {
-    return(
-        <>
-        <div className="content-area">
+  return (
+    <>
+      <div className="content-area">
         <h2>Welcome to our page!</h2>
         <div>
           <p>
@@ -33,9 +34,9 @@ function Home() {
             injected humour and the like.
           </p>
         </div>
-        </div>
-        </>
-    )
+      </div>
+    </>
+  );
 }
 
 export default Home;

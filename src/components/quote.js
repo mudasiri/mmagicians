@@ -1,9 +1,10 @@
-import React from "react";
+/* eslint-disable react/no-unescaped-entities */
+import React from 'react';
 
-function Quote(){
-    return(
-        <div>
-            <p>
+function Quote() {
+  return (
+    <div>
+      <p>
         What is Lorem Ipsum? Lorem Ipsum is simply dummy text of the printing
         and typesetting industry. Lorem Ipsum has been the industry's standard
         dummy text ever since the 1500s, when an unknown printer took a galley
@@ -14,8 +15,8 @@ function Quote(){
         passages, and more recently with desktop publishing software like
         Aldus PageMaker including versions of Lorem Ipsum.
       </p>
-        </div>
-    )
+    </div>
+  );
 }
 
 export default Quote;

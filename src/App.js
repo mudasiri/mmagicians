@@ -8,21 +8,21 @@ import './App.css';
 function App() {
   return (
     <>
-    <div className='nav-bar'>
-      <nav>
-        <h3 className='logo'>Welcome to Math Magicians</h3>
-        <ol className='nav-list'>
-          <li><Link to={'/'}>Home</Link></li>
-          <li><Link to={'/calculator'}>Calculator</Link></li>
-          <li><Link to={'/quote'}>Quote</Link></li>
-        </ol>
-      </nav>
-    </div>
-    <Routes>
-      <Route path='/' element={<Home/>} />
-      <Route path='/calculator' element={<Calculator/>} />
-      <Route path='/quote' element={<Quote/>} />
-    </Routes>
+      <div className="nav-bar">
+        <nav>
+          <h3 className="logo">Welcome to Math Magicians</h3>
+          <ol className="nav-list">
+            <li><Link to="/">Home</Link></li>
+            <li><Link to="/calculator">Calculator</Link></li>
+            <li><Link to="/quote">Quote</Link></li>
+          </ol>
+        </nav>
+      </div>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/calculator" element={<Calculator />} />
+        <Route path="/quote" element={<Quote />} />
+      </Routes>
     </>
   );
 }
